@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0BDFC9301F7EB97E00098769 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BDFC92F1F7EB97E00098769 /* main.cpp */; };
+		0BDFC93E1F7EB9A800098769 /* align.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BDFC93A1F7EB9A800098769 /* align.cpp */; };
+		0BDFC93F1F7EB9A800098769 /* io.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BDFC93B1F7EB9A800098769 /* io.cpp */; };
+		0BDFC9411F7EB9A800098769 /* matrix_example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BDFC93D1F7EB9A800098769 /* matrix_example.cpp */; };
+		0BDFC9471F7EB9C000098769 /* EasyBMP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BDFC9461F7EB9C000098769 /* EasyBMP.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,22 @@
 /* Begin PBXFileReference section */
 		0BDFC92C1F7EB97E00098769 /* mg1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mg1; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BDFC92F1F7EB97E00098769 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0BDFC9361F7EB99C00098769 /* align.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = align.h; path = ../../../MG_v2/align_project/include/align.h; sourceTree = "<group>"; };
+		0BDFC9371F7EB99C00098769 /* io.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = io.h; path = ../../../MG_v2/align_project/include/io.h; sourceTree = "<group>"; };
+		0BDFC9381F7EB99C00098769 /* matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = matrix.h; path = ../../../MG_v2/align_project/include/matrix.h; sourceTree = "<group>"; };
+		0BDFC9391F7EB99C00098769 /* matrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = matrix.hpp; path = ../../../MG_v2/align_project/include/matrix.hpp; sourceTree = "<group>"; };
+		0BDFC93A1F7EB9A800098769 /* align.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = align.cpp; path = ../../../MG_v2/align_project/src/align.cpp; sourceTree = "<group>"; };
+		0BDFC93B1F7EB9A800098769 /* io.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = io.cpp; path = ../../../MG_v2/align_project/src/io.cpp; sourceTree = "<group>"; };
+		0BDFC93D1F7EB9A800098769 /* matrix_example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = matrix_example.cpp; path = ../../../MG_v2/align_project/src/matrix_example.cpp; sourceTree = "<group>"; };
+		0BDFC9421F7EB9B700098769 /* EasyBMP_BMP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EasyBMP_BMP.h; path = ../../../MG_v2/align_project/externals/EasyBMP/include/EasyBMP_BMP.h; sourceTree = "<group>"; };
+		0BDFC9431F7EB9B700098769 /* EasyBMP_DataStructures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EasyBMP_DataStructures.h; path = ../../../MG_v2/align_project/externals/EasyBMP/include/EasyBMP_DataStructures.h; sourceTree = "<group>"; };
+		0BDFC9441F7EB9B700098769 /* EasyBMP_VariousBMPutilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EasyBMP_VariousBMPutilities.h; path = ../../../MG_v2/align_project/externals/EasyBMP/include/EasyBMP_VariousBMPutilities.h; sourceTree = "<group>"; };
+		0BDFC9451F7EB9B700098769 /* EasyBMP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EasyBMP.h; path = ../../../MG_v2/align_project/externals/EasyBMP/include/EasyBMP.h; sourceTree = "<group>"; };
+		0BDFC9461F7EB9C000098769 /* EasyBMP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EasyBMP.cpp; path = ../../../MG_v2/align_project/externals/EasyBMP/src/EasyBMP.cpp; sourceTree = "<group>"; };
+		0BDFC9481F7EB9DC00098769 /* EasyBMP_BMP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EasyBMP_BMP.h; path = ../../../MG_v2/align_project/bridge/include/EasyBMP_BMP.h; sourceTree = "<group>"; };
+		0BDFC9491F7EB9DC00098769 /* EasyBMP_DataStructures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EasyBMP_DataStructures.h; path = ../../../MG_v2/align_project/bridge/include/EasyBMP_DataStructures.h; sourceTree = "<group>"; };
+		0BDFC94A1F7EB9DC00098769 /* EasyBMP_VariousBMPutilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EasyBMP_VariousBMPutilities.h; path = ../../../MG_v2/align_project/bridge/include/EasyBMP_VariousBMPutilities.h; sourceTree = "<group>"; };
+		0BDFC94B1F7EB9DC00098769 /* EasyBMP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EasyBMP.h; path = ../../../MG_v2/align_project/bridge/include/EasyBMP.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +77,22 @@
 		0BDFC92E1F7EB97E00098769 /* mg1 */ = {
 			isa = PBXGroup;
 			children = (
+				0BDFC9481F7EB9DC00098769 /* EasyBMP_BMP.h */,
+				0BDFC9491F7EB9DC00098769 /* EasyBMP_DataStructures.h */,
+				0BDFC94A1F7EB9DC00098769 /* EasyBMP_VariousBMPutilities.h */,
+				0BDFC94B1F7EB9DC00098769 /* EasyBMP.h */,
+				0BDFC9461F7EB9C000098769 /* EasyBMP.cpp */,
+				0BDFC9421F7EB9B700098769 /* EasyBMP_BMP.h */,
+				0BDFC9431F7EB9B700098769 /* EasyBMP_DataStructures.h */,
+				0BDFC9441F7EB9B700098769 /* EasyBMP_VariousBMPutilities.h */,
+				0BDFC9451F7EB9B700098769 /* EasyBMP.h */,
+				0BDFC93A1F7EB9A800098769 /* align.cpp */,
+				0BDFC93B1F7EB9A800098769 /* io.cpp */,
+				0BDFC93D1F7EB9A800098769 /* matrix_example.cpp */,
+				0BDFC9361F7EB99C00098769 /* align.h */,
+				0BDFC9371F7EB99C00098769 /* io.h */,
+				0BDFC9381F7EB99C00098769 /* matrix.h */,
+				0BDFC9391F7EB99C00098769 /* matrix.hpp */,
 				0BDFC92F1F7EB97E00098769 /* main.cpp */,
 			);
 			path = mg1;
@@ -120,6 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BDFC9301F7EB97E00098769 /* main.cpp in Sources */,
+				0BDFC9411F7EB9A800098769 /* matrix_example.cpp in Sources */,
+				0BDFC93F1F7EB9A800098769 /* io.cpp in Sources */,
+				0BDFC9471F7EB9C000098769 /* EasyBMP.cpp in Sources */,
+				0BDFC93E1F7EB9A800098769 /* align.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
